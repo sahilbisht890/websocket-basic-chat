@@ -17,6 +17,10 @@
     border-radius: 10px;
 }
 
+.sender{
+    background-color: rgb(184, 92, 107);
+}
+
 .imageContainer {
     background-color: black
 }
