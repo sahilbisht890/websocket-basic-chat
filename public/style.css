@@ -29,3 +29,30 @@ img{
 .scroll-container::-webkit-scrollbar {
     width: 0px;
 }
+
+ body {
+    background-color: #212529; /* Dark background */
+    color: white;
+}
+.chat-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.scroll-container {
+    flex: 1; /* Flexible height */
+    overflow-y: auto;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.imageContainer {
+    background: #343a40; /* Dark background for user info */
+    border-radius: 10px;
+    height: 15%;
+}
+
+.h-80{
+    height: 80%;
+}
