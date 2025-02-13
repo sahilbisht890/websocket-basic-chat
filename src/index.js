@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
 
 io.on("connection", (socket) => {
   console.log("a user connected");
+  console.log('socket details' , socket.id);
 
   // for the ui where both users in same screen
 
